@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>www.impilologistics car rental</title>
+
+<style>
+:root{
+  --accent:#50a9a6;
+  --bg:#020617;
+  --card:#0f172a;
+  --soft:#111827;
+  --line:#1f2937;
+  --muted:#94a3b8;
+}
+
+*{box-sizing:border-box}
+
+body{
+  margin:0;
+  font-family:Segoe UI, Arial, sans-serif;
+  background:var(--bg);
+  color:#e5e7eb;
+}
+
+header{
+  position:sticky;
+  top:0;
+  background:rgba(2,6,23,.95);
+  border-bottom:1px solid var(--line);
+}
+
+.nav{
+  max-width:1200px;
+  margin:auto;
+  padding:16px 20px;
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+}
+
+.brand{
+  display:flex;
+  align-items:center;
+  gap:10px;
+}
+
+.logo-img{
+  height:40px;
+}
+
+.menu a{
+  margin-left:18px;
+  color:#cbd5f5;
+}
+
+.cta{
+  background:var(--accent);
+  padding:8px 14px;
+  border-radius:10px;
+  color:#020617;
+  font-weight:700;
+}
+
+.hero{
+  max-width:1200px;
+  margin:40px auto;
+  padding:20px;
+}
+
+.hero-box{
+  background:var(--card);
+  border:1px solid var(--line);
+  border-radius:18px;
+  padding:30px;
+}
+
+.section{
+  max-width:1200px;
+  margin:50px auto;
+  padding:0 20px;
+}
+
+.cards{
+  display:grid;
+  grid-template-columns:repeat(auto-fit,minmax(260px,1fr));
+  gap:18px;
+}
+
+.card{
+  background:var(--card);
+  border:1px solid var(--line);
+  border-radius:18px;
+  overflow:hidden;
+}
+
+.thumb{
+  height:180px;
+  background-size:cover;
+  background-position:center;
+}
+
+.card-body{padding:15px}
+
+.badge{
+  color:var(--accent);
+  font-weight:700;
+}
+
+.price{
+  font-weight:900;
+  margin-top:5px;
+}
+
+.muted{
+  color:var(--muted);
+  font-size:14px;
+}
+
+button{
+  width:100%;
+  margin-top:10px;
+  padding:10px;
+  border:none;
+  border-radius:10px;
+  background:var(--accent);
+  color:#020617;
+  font-weight:700;
+}
+
+footer{
+  margin-top:60px;
+  border-top:1px solid var(--line);
+}
+
+.foot{
+  max-width:1200px;
+  margin:auto;
+  padding:20px;
+  color:var(--muted);
+}
+</style>
+</head>
+
+<body>
+
+<header>
+  <div class="nav">
+    <div class="brand">
+      <img src="logo.png" class="logo-img ">
+      <strong>Impilo Logistics</strong>
+    </div>
+    <div class="menu">
+      <a href="#impilo">Impilo Rentals</a>
+      <a href="#peer">Rent from People</a>
+      <a href="#buy">Buy Cars</a>
+    </div>
+  </div>
+</header>
+
+<section class="hero">
+  <div class="hero-box">
+    <h2>Rent, Share, or Buy Vehicles right here</h2>
+    <p> Impilo Logistics lets you rent company cars, share vehicles with other users, or buy cars from trusted sellers — all in one platform. Explore listings, compare options, and choose the best vehicle for your needs quickly and easily    </p>
+  </div>
+</section>
+
+<!-- IMPILO RENTALS -->
+<section id="impilo" class="section">
+  <h3>Rent from Impilo Logistics</h3>
+
+  <div class="cards">
+
+    <div class="card">
+      <div class="thumb" style="background-image:url('honda\ fit.jpg')"></div>
+      <div class="card-body">
+        <span class="badge">Company Vehicle</span>
+        <h4>Honda Fit</h4>
+        <p class="muted">Fuel efficient, ideal for city driving</p>
+        <div class="price">P450 / day</div>
+      
+            <a href="Honda Fit.html">
+  <button>Book</button>
+</a>
+      </div>
+    </div>
+
+
+
+    <div class="card">
+      <div class="thumb" style="background-image:url('Demio.png')"></div>
+      <div class="card-body">
+        <span class="badge">Company Vehicle</span>
+        <h4>Mazda Demio</h4>
+        <p class="muted">Perfect for work and very reliable </p>
+        <div class="price">P560 / day</div>
+        
+      <a href="Mazda Demio.html">
+  <button>Book</button>
+</a>
+      </div>
+    </div>
+
+
+    
+  </div>
+</section>
+
+<!-- PEER RENTALS -->
+<section id="peer" class="section">
+  <h3>Rent from Other Users</h3>
+
+  <div class="cards">
+
+    <div class="card">
+      <div class="thumb" style="background-image:url('2026-Kia-Sonet-15-LS\ \(1\).avif')"></div>
+      <div class="card-body">
+        <span class="badge">Private Owner</span>
+        <h4>2026 Kia Sonnet - Kabelo</h4>
+        <p class="muted">Clean, reliable, available weekends</p>
+        <div class="price">P600/ day</div>
+
+           <a href="Kia Sonnet.html">
+  <button>Rent now</button>
+</a>
+      </div>
+    </div>
+
+
+    <div class="card">
+      <div class="thumb" style="background-image:url('2020\ Land\ Rover\ Evoque\ D180.png')"></div>
+      <div class="card-body">
+        <span class="badge">Private Owner</span>
+        <h4>2020 Land Rover - Thabiso</h4>
+        <p class="muted">Luxury experience, well maintained</p>
+        <div class="price">P1000 / day</div>
+
+         <a href="Land Roverr.html">
+      <button>Rent now </button>
+    </a>
+  </div>
+</div>
+
+
+       </a>
+    <div class="card">
+      <div class="thumb" style="background-image:url('Nissan.jpg')"></div>
+      <div class="card-body">
+        <span class="badge">Private Owner</span>
+        <h4>Nissan NP200 - Thabo</h4>
+        <p class="muted">Ideal for deliveries and work</p>
+        <div class="price">P350 / day</div>
+
+          <a href="Nissan.html">
+      <button>Rent now </button>
+    </a>
+  </div>
+</div>
+        
+
+
+  </div>
+</section>
+
+<!-- BUY CARS -->
+<section id="buy" class="section">
+  <h3>Cars for Sale</h3>
+
+  <div class="cards">
+
+    <div class="card">
+      <div class="thumb" style="background-image:url('TOYOTA\ corolla\ 2019.jpg')"></div>
+      <div class="card-body">
+        <span class="badge">For Sale</span>
+        <h4>Toyota Corolla 2019</h4>
+        <p class="muted">Low mileage, excellent condition</p>
+        <div class="price">P85,000</div>
+
+         <a href="Toyota.html">
+      <button>Buy now </button>
+    </a>
+  </div>
+</div>
+
+
+     
+    <div class="card">
+      <div class="thumb" style="background-image:url('Ford\ Ranger\ 2020.png')"></div>
+      <div class="card-body">
+        <span class="badge">For Sale</span>
+        <h4>Ford Ranger 2020</h4>
+        <p class="muted">Strong bakkie, perfect for business</p>
+        <div class="price">P1 099 500   </div>
+
+      <a href="Ford.html">
+  <button>Buy now</button>
+</a>
+      </div>
+    </div>
+
+
+
+    <div class="card">
+      <div class="thumb" style="background-image:url('2025-Volkswagen-Polo-10-TSI-Life-Auto.avif')"></div>
+      <div class="card-body">
+        <span class="badge">For Sale</span>
+        <h4>2025 Volkswagen Polo</h4>
+        <p class="muted">Affordable and reliable</p>
+        <div class="price">P479 900</div>
+
+      <a href="Polo.html">
+  <button>Buy now </button>
+</a>
+      </div>
+    </div>
+
+
+
+    <div class="card">
+      <div class="thumb" style="background-image:url('BENZ.jpg')"></div>
+      <div class="card-body">
+        <span class="badge">For Sale</span>
+        <h4>2022 Mercedes-Benz C-Class</h4>
+        <p class="muted">Luxury vehicle, excellent condition</p>
+        <div class="price">P529 900</div>
+
+        <a href="Benz.html">
+  <button>Buy now </button>
+</a>
+      </div>
+    </div>
+
+
+  </div>
+</section>
+
+<footer>
+  <div class="foot">
+    © 2026 Impilo Logistics
+  </div>
+</footer>
+
+</body>
+</html>
